@@ -3,7 +3,7 @@
 
 Xcopy /S /É endereços
 
-del /q "endereços\*"
+del "endereços\*.*" /s /f /q
 
 
 timeout /t 30 /nobreak > NUL
